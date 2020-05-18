@@ -1,0 +1,171 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='main.css')}} ">
+    
+    <!-- Latest compiled and minified CSS -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Responsive sidebar template with sliding effect and dropdown menu based on bootstrap 3">
+    <title>Packntag</title>
+<!------ Include the above in your HEAD tag ---------->
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.5/css/mdb.min.css" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+  <title>Packntag</title>
+  </head>
+  <body>
+  
+  
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Packit</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="home.html">Home </a>
+      </li>
+  </div>
+</nav>
+
+
+<div class="card" id="sidebar"  >
+  <div class="card-header" id="card-header">Profile</div>
+  <ul class="list-group list-group-flush">
+   <li class="list-group-item"><a href="sidebar/profile.html"><i class="fas fa-user-circle" style="padding: 3px;"></i> Personal Info</a></li>
+  </ul>
+
+  <div class="card-header" id="card-header">Bookings</div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"><a href="sidebar/requests.html"><i class="fas fa-hands-helping" style="padding: 3px;"></i>Requests</a></li>
+    <li class="list-group-item"><a href="sidebar/travel.html"><i class="fas fa-plane" style="padding: 3px;"></i>Travels</a></li>
+  </ul>
+
+  <div class="card-header" id="card-header">Wallet</div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"><a href="#"><i class="fas fa-wallet" style="padding: 3px;"></i><a href="temp_states/enter_otp.html">Payments <span class="badge badge-default" style="margin-left: 5px;" >1</span></a></li>
+  </ul>
+
+ <div class="card-header" id="card-header">Communication</div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"><a href=""><i class="fas fa-comments" style="padding: 3px;"></i>Messages</a><a>  <span class="badge badge-default" style="margin-left: 5px;" >2</span></a></li>
+    <li class="list-group-item"><a href=""><i class="fas fa-bell" style="padding: 3px;"></i>Notifications  </a><a>  <span class="badge badge-warning" style="margin-left: 5px;" >2</span></a></li>
+  </ul>
+
+ <div class="card-header" id="card-header">About</div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"><a href="sidebar/contactus.html"><i class="fas fa-headset" style="padding: 3px;"></i>Contact Us</a></li>
+    <li class="list-group-item"><a href="sidebar/terms.html"><i class="fas fa-file-contract" style="padding: 3px;"></i>Terms & Conditions</a></li>
+  </ul>
+</div>
+
+
+<!-- Breadcrumb Progress-->
+<div class="container" style="position: absolute; left: 24%; top: 7%;">
+<ol class="breadcrumb breadcrumb-right-arrow">
+<li class="breadcrumb-item"><a href="">Chat</a></li>
+</ol>
+</div>
+  
+  <div class="chatbox" style="position: absolute; left: 30%; top: 20%; width: 40%;">
+	<div class="chatlogs">
+		<div class="chat friend">
+			<div class="user-photo"><img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-3.jpg" class="rounded-circle mr-3" height="50px" width="50px" alt="avatar"></div>	
+			<p class="chat-message">Hi can you pickup my cactus?</p>
+		</div>
+
+		<div class="chat self">
+			<div class="user-photo"><img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-1.jpg" class="rounded-circle mr-3" height="50px" width="50px" alt="avatar"></div>	
+			<p class="chat-message">Sure, do you think tomorrow at 2pm will be fine?</p> 
+		</div>
+
+		<div class="chat friend">
+			<div class="user-photo"><img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-3.jpg" class="rounded-circle mr-3" height="50px" width="50px" alt="avatar"></div>	
+			<p class="chat-message">Absolutely. We can meet at Dam Square?</p>
+		</div>
+
+		<div class="chat self">
+			<div class="user-photo"><img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-1.jpg" class="rounded-circle mr-3" height="50px" width="50px" alt="avatar"></div>	
+			<p class="chat-message">Perfect. My number is 2441139</p> 
+		</div>
+
+		<div class="chat friend">
+			<div class="user-photo"><img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-3.jpg" class="rounded-circle mr-3" height="50px" width="50px" alt="avatar"></div>	
+			<p class="chat-message">Thanks! See you</p>
+		</div>
+
+		<div class="chat self">
+			<div class="user-photo"><img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-1.jpg" class="rounded-circle mr-3" height="50px" width="50px" alt="avatar"></div>	
+			<p class="chat-message">See you!</p> 
+		</div>	
+		
+
+	</div>
+
+	<div class="chat-form">
+		<textarea></textarea>
+		<button type="button" class="btn btn-default">Send</button>
+	</div>
+</div>
+
+
+<style>
+.page-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+  background-color: #333;
+}
+</style>
+
+<footer class="page-footer">
+  <div class="footer-copyright text-center py-3">© 2019 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> packntag.com</a>
+    </div>
+</footer>
+
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.5/js/mdb.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/momentjs/2.14.1/moment.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+</body>
+</html>

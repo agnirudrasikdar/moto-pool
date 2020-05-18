@@ -1,0 +1,99 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='main.css')}} ">
+
+    <!-- Latest compiled and minified CSS -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Responsive sidebar template with sliding effect and dropdown menu based on bootstrap 3">
+
+<!------ Include the above in your HEAD tag ---------->
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.5/css/mdb.min.css" rel="stylesheet">
+
+
+  <title>Velocitta</title>
+</head>
+
+  <body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Velocitta</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href={{ url_for('home')}}>Home </a>
+      </li>
+  </div>
+</nav>
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+     <div class="card" style="width: 100%;font-family: Lato;">
+  <img class="card-img-top" src="https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20180307163542/iStock-636316538.jpg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text" style="font-size: 18px;">Find a driver for your pool journey</p>
+
+
+    <a href={{ url_for('find_driver')}}>
+    <button type="button" class="btn btn-lg btn-primary" style="border-radius: 10px;width: 100%;">Find a Driver</button>
+  </div>
+</div>
+    </div>
+    <div class="col">
+     <div class="card" style="width: 100%;font-family: Lato;">
+  <img class="card-img-top" src="https://blog.nationwide.com/wp-content/uploads/2016/04/10434_4245.jpg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text" style="font-size: 18px;">Got extra space in your moto?</p>
+    <a href={{ url_for('offer_ride')}}>
+<button type="button" class="btn btn-lg btn-success" style="border-radius: 10px;width: 100%;">Offer to Pool</button>
+  </div>
+</div>
+    </div>
+  </div>
+  <div class="row">
+  </div>
+</div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/momentjs/2.14.1/moment.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+
+  </body>
+</html>
